@@ -23,9 +23,6 @@ They're not even considered programming languages, cause all they're meant to do
 
 If you've decided to stay, ur a very cool person 
 
-Before you continue reading, I suggest you get/open vscode, open this file and use the preview command (ctrl+shift+v), it'll make reading a lot easier
-Either that, or, if you don't have vscode, run `npm run dev` from the commandline, and click the link it gives you
-
 Check out all of these in order:
 1. [Things you need to install](#things-you-need-to-install). Don't worry about security or space, its all safe and only takes up a few mb
 2. [how qwik works](#how-qwik-works)
@@ -63,9 +60,7 @@ So far, I've been calling all the content files index, but index actually comes 
 - typescript + react (index.tsx)
 - markdown (index.md)
 
-Markdown is very simple
-[Heres a cheatsheet](https://www.markdownguide.org/cheat-sheet/)
-[Heres a full tutorial](https://www.markdowntutorial.com/), although its kinda long and I don't suggest it
+Markdown is very simple [heres a cheatsheet](https://www.markdownguide.org/cheat-sheet/), and [heres a full tutorial](https://www.markdowntutorial.com/). The tutorial is kinda long tho, and I don't suggest it.
 
     Tip: In markdown files, you can actually write raw html and it'll work just fine
 
@@ -89,7 +84,8 @@ Here are the jobs I need (you can fill in ur names if u wan):
 |Make homepage|src/routes/index|Make a homepage with spaces for recent releases, trending series, etc. Basically, think of the a netflix homepage, but better.|about 60% html, 25% css| _________ |
 |Make series info page|src/routes/\[anime\]/index|I put a brief description in the file, so just go there|| _________ |
 |Make series watch page|src/routes/\[anime\]/\[sep\]/index|^^same|about 60% html, 25% css| _________ |
-|Make series relations page|src/routes/\[anime\]/relations|^same|about 60% html, 25% css| _________ | 
+|Make series relations page|src/routes/\[anime\]/relations|^same|about 60% html, 25% css| _________ |
+|Page headers and footers|src/routes/layout.tsx  src/components/*|Make a header with a searchbar and menu, and change the footer to be literally anything else|about 50% html, 50% css| _________ |
 |Dynamize everything|Everywhere|Add all the actual data to the pages|100% js/tsx| Me |
 |Logos/art|||| _________ |
 

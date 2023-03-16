@@ -23,9 +23,6 @@ They're not even considered programming languages, cause all they're meant to do
 
 If you've decided to stay, ur a very cool person 
 
-Before you continue reading, I suggest you get/open vscode, open this file and use the preview command (ctrl+shift+v), it'll make reading a lot easier
-Either that, or, if you don't have vscode, run `npm run dev` from the commandline, and click the link it gives you
-
 Check out all of these in order:
 1. [Things you need to install](#things-you-need-to-install). Don't worry about security or space, its all safe and only takes up a few mb
 2. [how qwik works](#how-qwik-works)
